@@ -30,3 +30,23 @@ print(f"x and y -> {x and y}")  # Logical AND
 print(f"x or y  -> {x or y}")   # Logical OR
 print(f"not x   -> {not x}")    # Logical NOT
 print(f"not y   -> {not y}") 
+
+#task 4
+# Step 1: Initialize the variable
+total = 10
+
+# Step 2: Use assignment operators to update total
+total += 5   # Equivalent to total = total + 5
+print(f"After += 5: {total}")  
+
+total -= 3   # Equivalent to total = total - 3
+print(f"After -= 3: {total}")  
+
+total *= 2   # Equivalent to total = total * 2
+print(f"After *= 2: {total}")  
+
+total /= 4   # Equivalent to total = total / 4
+print(f"After /= 4: {total}")  
+
+# Step 3: Print the final value
+print(f"Final value of total: {total}")
